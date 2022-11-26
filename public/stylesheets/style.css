@@ -22,8 +22,8 @@ h2 {
 
 #calculator-container {
   border-radius: 5px;
-  width: 400px;
-  height: 500px;
+  width: 80%;
+  height: 400px;
   background-color: rgba(200, 193, 193, 0.8);
   padding: 20px;
   display: flex;
@@ -131,4 +131,19 @@ footer {
 
 .superRed {
   background-color: rgb(170, 35, 35) !important;
+}
+
+@media (min-width:600px) {
+
+
+  #calculator-container {
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(200, 193, 193, 0.8);
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+
 }
